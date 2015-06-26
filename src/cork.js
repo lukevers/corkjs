@@ -2,6 +2,8 @@
 // Cork.js
 //
 
-var Cork = function(opt) {
-	
+var Cork = function(object) {
+	if (util.exists(object)) {
+		this.el = object.el;
+	}
 }

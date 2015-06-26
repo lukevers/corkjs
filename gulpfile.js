@@ -8,7 +8,7 @@ var uglify = require('gulp-uglify');
 
 gulp.task('build', function() {
 	return gulp.src([
-			'cork.js',
+			'src/cork.js',
 		]).pipe(concat('cork.js'))
 		.pipe(gulp.dest('dist/'));
 });
